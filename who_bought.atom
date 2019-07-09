@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <id>tag:localhost,2005:/products/4/who_bought</id>
+  <link rel="alternate" type="text/html" href="http://localhost:3000"/>
+  <link rel="self" type="application/atom+xml" href="http://localhost:3000/products/4/who_bought.atom"/>
+  <title>Who bought ADRPO Web App</title>
+  <updated>2019-07-09T01:53:18Z</updated>
+  <entry>
+    <id>tag:localhost,2005:Order/1</id>
+    <published>2019-07-08T10:56:41Z</published>
+    <updated>2019-07-08T10:56:41Z</updated>
+    <link rel="alternate" type="text/html" href="http://localhost:3000/orders/1"/>
+    <title>Order 1</title>
+    <summary type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <p>Shipped to HCM</p>
+        <table>
+          <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Total Price</th>
+          </tr>
+          <tr>
+            <td>ADRPO Web App</td>
+            <td>2</td>
+            <td>$64.00</td>
+          </tr>
+          <tr>
+            <th colspan="2">total</th>
+            <th>$64.00</th>
+          </tr>
+        </table>
+        <p>Paid by Check</p>
+      </div>
+    </summary>
+    <author>
+      <name>Lake</name>
+      <email>hodai@gmail.com</email>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:localhost,2005:Order/2</id>
+    <published>2019-07-09T01:51:14Z</published>
+    <updated>2019-07-09T01:51:14Z</updated>
+    <link rel="alternate" type="text/html" href="http://localhost:3000/orders/2"/>
+    <title>Order 2</title>
+    <summary type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <p>Shipped to Q10. HCM</p>
+        <table>
+          <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Total Price</th>
+          </tr>
+          <tr>
+            <td>ADRPO Web App</td>
+            <td>2</td>
+            <td>$64.00</td>
+          </tr>
+          <tr>
+            <th colspan="2">total</th>
+            <th>$64.00</th>
+          </tr>
+        </table>
+        <p>Paid by Credit card</p>
+      </div>
+    </summary>
+    <author>
+      <name>LaKE</name>
+      <email>hodai@gmail.com</email>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:localhost,2005:Order/3</id>
+    <published>2019-07-09T01:53:18Z</published>
+    <updated>2019-07-09T01:53:18Z</updated>
+    <link rel="alternate" type="text/html" href="http://localhost:3000/orders/3"/>
+    <title>Order 3</title>
+    <summary type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <p>Shipped to hcm</p>
+        <table>
+          <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Total Price</th>
+          </tr>
+          <tr>
+            <td>ADRPO Web App</td>
+            <td>1</td>
+            <td>$32.00</td>
+          </tr>
+          <tr>
+            <td>Seven 7th Moblie Apps in Seven Weeks</td>
+            <td>3</td>
+            <td>$78.00</td>
+          </tr>
+          <tr>
+            <th colspan="2">total</th>
+            <th>$110.00</th>
+          </tr>
+        </table>
+        <p>Paid by Purchase order</p>
+      </div>
+    </summary>
+    <author>
+      <name>lake1</name>
+      <email>hodai@gmail.com</email>
+    </author>
+  </entry>
+</feed>
