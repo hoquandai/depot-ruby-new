@@ -6,7 +6,7 @@
 server "10.192.200.149", user: "osboxes", roles: %w{app db web}
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
-
+set :linked_files, %w{config/master.key}
 
 # role-based syntax
 # ==================
