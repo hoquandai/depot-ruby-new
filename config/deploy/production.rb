@@ -8,6 +8,8 @@ server "10.192.200.149", user: "osboxes", roles: %w{app db web}
 # server "db.example.com", user: "deploy", roles: %w{db}
 set :linked_files, %w{config/master.key}
 
+set :stage, :production
+
 # role-based syntax
 # ==================
 
