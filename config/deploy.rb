@@ -7,23 +7,22 @@
 # Visit http://www.pragmaticprogrammer.com/titles/rails5 for more book information.
 #---
 # be sure to change these values
-user = 'lake'
-domain = '192.168.56.10'
+lock "~> 3.11.0"
 
 # adjust if you are using RVM, remove if you are not
-set :rvm_type, :system
+set :rvm_type, :user
 set :rvm_ruby_string, 'ruby-2.5.1'
 
 # file paths
 set :application, 'depot'
-set :repo_url, "#{user}@#{domain}:git/#{fetch(:application)}.git" 
-set :deploy_to, "/home/#{user}/deploy/#{fetch(:application)}" 
+set :repo_url, "https://github.com/HoLegolas/depot-ruby-new" 
+set :deploy_to, "/home/osboxes/deploy/#{fetch(:application)}" 
 
 # distribute your applications across servers (the instructions below put them
 # all on the same server, defined above as 'domain', adjust as necessary)
-role :app, domain
-role :web, domain
-role :db, domain
+# role :app, domain
+# role :web, domain
+# role :db, domain
 
 # you might need to set this if you aren't seeing password prompts
 # or are seeing errors like 'no tty present and no askpass program specified'
