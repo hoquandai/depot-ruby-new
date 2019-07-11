@@ -83,3 +83,5 @@ gem 'capistrano-passenger', group: :development
 #END_HIGHLIGHT
 #END:capistrano
 gem 'capistrano', '~> 3.0'
+
+gem "passenger", ">= 5.0.25", require: "phusion_passenger/rack_handler"
